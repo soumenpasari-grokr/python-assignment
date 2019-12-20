@@ -29,9 +29,3 @@ def partition(array,start,end):
     array[start],array[high] = array[high],array[start]
 
     return high
-
-# sample input from here
-array = [12,24,35,24,88,120,155,88,120,155]
-
-quick_sort(array,0,len(array) - 1)
-print(array)
